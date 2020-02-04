@@ -14,12 +14,11 @@ export const AddQuetion = () => {
             var seta = qc
             seta.push(data)
             setQc(seta)
-            console.log(qc )
+            console.log(qc)
         }
     }
     useEffect(() => {
-        // Update the document title using the browser API
-        // http://localhost:3001/exam/api/exams
+        
         console.log(title)
     });
 

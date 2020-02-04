@@ -1,13 +1,5 @@
 import React, { useState } from 'react'
 import { InputGroup, FormControl, Row, Col, Form, Button, Alert } from 'react-bootstrap'
-// {
-//     "theQuestion" :  "test",
-//  "first_Option": "11",
-// "sec_Option":"22",
-//  "thrid_Option":"33",
-//  "forth_Option":"44",
-//  "correct_answer" : "22"
-// }
 export const AddOneQuetion = ({ AddTheQuetstionFunc }) => {
     const [Qc, setQc] = useState({})
     const [alert, setAlert] = useState(false)
